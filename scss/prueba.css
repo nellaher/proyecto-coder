@@ -1,0 +1,356 @@
+/*Variables----------------------------*/
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-image: url(../assets/img/fondogris.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: black;
+  line-height: 1.5;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.466);
+}
+
+header .logo {
+  -webkit-animation: fadeInDown;
+          animation: fadeInDown;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  padding-top: 2%;
+}
+
+header h1 {
+  color: rgba(255, 255, 255, 0.959);
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 400;
+  letter-spacing: 6px;
+  font-size: 200%;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-animation: fadeInDown;
+          animation: fadeInDown;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  padding-top: 2%;
+}
+
+header .navbar {
+  background-color: #31d395;
+  margin-top: 3%;
+}
+
+header .navbar .navbar-nav .nav-link {
+  color: black;
+}
+
+#galeria {
+  background-color: rgba(0, 0, 0, 0.479);
+  margin-top: 5%;
+  padding: 5%;
+  border: solid 1px #31d395;
+}
+
+#galeria p {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 150%;
+  text-transform: uppercase;
+  padding: 2%;
+  text-align: center;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.829);
+  padding-top: 4%;
+  padding-bottom: 2%;
+  font-size: 120%;
+  border-top: #31d395 solid 4px;
+}
+
+footer .logo {
+  padding-top: 15%;
+}
+
+footer .titulosFooter {
+  color: white;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  text-align: justify;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li {
+  padding: 1%;
+}
+
+footer a {
+  text-decoration: none;
+  color: #31d395;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+/*otras secciones-------------*/
+#views {
+  background-image: url(../assets/img/portada.jpg);
+  background-color: black;
+  background-size: 100%;
+}
+
+main h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  font-size: 250%;
+  text-align: right;
+  background: #626e6b;
+  color: white;
+  border: rgba(255, 255, 255, 0.808) 2px solid;
+  padding: 3%;
+  -webkit-animation: slideInLeft;
+          animation: slideInLeft;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  margin-top: 1%;
+}
+
+main #contenido {
+  font-family: 'Work Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.959);
+  background-color: rgba(0, 0, 0, 0.685);
+  border: #31d395 1px solid;
+  text-align: justify;
+  font-size: 120%;
+  padding: 6%;
+  margin: 3%;
+}
+
+main h3 {
+  text-align: center;
+}
+
+main .row {
+  padding: 5%;
+}
+
+.contacto {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  text-align: justify;
+  font-size: 120%;
+  padding: 6%;
+  margin: 3%;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.664);
+  border: white 1px solid;
+  text-align: justify;
+  font-size: 120%;
+}
+
+.botonF {
+  background-color: #31d395;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  border: white 3px outset;
+  padding: 2% 5% 2% 5%;
+  margin: 1%;
+}
+
+.convocatoria {
+  background-color: rgba(57, 161, 139, 0.438);
+  padding: 2%;
+  border: 2px solid white;
+  margin: 2%;
+}
+
+.convocatoria .convocatoria__imagen {
+  height: 335px;
+  width: 335px;
+}
+
+.convocatoria .convocatoria__titulo {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-weight: bold;
+  padding: 1%;
+}
+
+.convocatoria .convocatoria__parrafo {
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  text-align: justify;
+  padding: 3%;
+}
+
+.convocatoria .convocatoria__link {
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: 120%;
+}
+
+.convocatoria .convocatoria__link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.estudiar {
+  background-color: rgba(48, 134, 116, 0.438);
+  padding: 2%;
+  border: 2px solid white;
+  margin: 2%;
+}
+
+.estudiar .estudiar__titulo {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-weight: bold;
+  padding: 1%;
+}
+
+.estudiar .estudiar__imagen {
+  height: 335px;
+  width: 335px;
+}
+
+.estudiar .estudiar__parrafo {
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  text-align: justify;
+  padding: 3%;
+}
+
+.estudiar .estudiar__link {
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: 120%;
+}
+
+.estudiar .estudiar__link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.esquemas {
+  background-color: rgba(40, 109, 97, 0.438);
+  padding: 2%;
+  border: 2px solid white;
+  margin: 2%;
+}
+
+.esquemas .esquemas__titulo {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-weight: bold;
+  padding: 1%;
+}
+
+.esquemas .esquemas__imagen {
+  height: 335px;
+  width: 335px;
+}
+
+.esquemas .esquemas__parrafo {
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  text-align: justify;
+  padding: 3%;
+}
+
+.esquemas .esquemas__link {
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: 120%;
+}
+
+.esquemas .esquemas__link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.desnivel {
+  background-color: rgba(57, 161, 139, 0.438);
+  padding: 2%;
+  border: 2px solid white;
+  margin: 2%;
+}
+
+.desnivel__titulo {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-weight: bold;
+  padding: 1%;
+}
+
+.desnivel__imagen {
+  width: 335px;
+  height: 335px;
+}
+
+.desnivel__parrafo {
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  text-align: justify;
+  padding: 3%;
+}
+
+.desnivel__link {
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: 120%;
+}
+
+.desnivel__link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.covid {
+  background-color: rgba(71, 204, 175, 0.438);
+  padding: 2%;
+  border: 2px solid white;
+  margin: 2%;
+}
+
+.covid__titulo {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-weight: bold;
+  padding: 1%;
+}
+
+.covid__imagen {
+  width: 335%;
+  height: 335%;
+}
+
+.covid__parrafo {
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  text-align: justify;
+  padding: 3%;
+}
+
+.covid__link {
+  color: black;
+  font-family: "Oswald", sans-serif;
+  font-size: 120%;
+}
+
+.covid__link:hover {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=prueba.css.map */
